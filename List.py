@@ -1,0 +1,32 @@
+l=[1,2,3,4,56,54,58]
+sz=len(l)
+#print(sz)
+#print(l[1])
+l.extend([5,6,7,2])
+print(l)
+l+=[10]
+print(l)
+# l1=[1,1,2,3,4,5]
+# print(l1)
+l.pop()
+print(l)
+l.pop(3)
+print(l)
+l.remove(54)
+print(l)
+l+=[1,1,1,2,2,23,2,2,2]
+print(l)
+print(l.count(1))
+l.insert(3,100)
+print(l)
+# l.sort(reverse=True)
+# print(l)
+# l.reverse()
+# print(l)
+#print(l[-2])
+# print(l[:5])
+# print(l[5:])
+# print(l[2:6])
+# print(l[1::2])
+l[3],l[5]=l[5],l[3]
+print(l)
